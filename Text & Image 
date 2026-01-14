@@ -1,0 +1,16 @@
+{
+  "name": "Text & Image ",
+  "settings": [
+    {
+      "id": "text",
+      "label": "mmmmmmmmmmm",
+      "type": "text",
+      "default": "Enter text here"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text with Image"
+    }
+  ]
+}
