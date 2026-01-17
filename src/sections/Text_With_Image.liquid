@@ -1,1 +1,14 @@
-تاتاتاتاتا
+Model quota limit exceeded
+You have reached the quota limit for Claude Sonnet 4.5. You can resume using this model at 1/23/2026, 3:51:19 PM. You can upgrade to a Google AI plan to receive higher rate limits. See plans.
+
+<div 
+                              key={item.path} 
+                              className={`content-item ${item.type}`}
+                              onClick={() => {
+                                if (item.type === 'dir') {
+                                  navigateToFolder(item.path);
+                                } else {
+                                  loadFileContent(item.path);
+                                }
+                              }}
+                            >
