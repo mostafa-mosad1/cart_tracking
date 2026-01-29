@@ -1,0 +1,70 @@
+
+{% schema %}
+  {
+  "name": "Text_With_Image",
+  "settings": [
+    {
+      "id": "main_title",
+      "label": "Main Title",
+      "type": "text",
+      "default": "Main Title"
+    },
+    {
+      "id": "sub_title",
+      "label": "Sub Title",
+      "type": "text",
+      "default": "Sub Title"
+    },
+    {
+      "id": "full_name",
+      "label": "Full Name",
+      "type": "text",
+      "default": "Full Name"
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "type": "text",
+      "default": "Email"
+    },
+    {
+      "id": "phone_number",
+      "label": "Phone Number",
+      "type": "text",
+      "default": "Phone Number"
+    },
+    {
+      "id": "message",
+      "label": "Message",
+      "type": "text",
+      "default": "Message"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Branch_Addresses",
+      "name": "Branch Addresses",
+      "settings": [
+        {
+          "id": "address",
+          "label": "Address",
+          "type": "text",
+          "default": "Address"
+        },
+        {
+          "id": "address_url",
+          "label": "Address URL",
+          "type": "text",
+          "default": "Address URL",
+          "info": "full url link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text_with_Image"
+    }
+  ]
+}
+{% endschema %}
